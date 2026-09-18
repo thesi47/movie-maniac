@@ -17,7 +17,7 @@ function MovieDetails() {
 
         <button
           onClick={() => navigate("/movies")}
-          className="absolute right-4 top-4 z-10 rounded-full bg-black/70 px-3 py-2 text-xl text-white hover:bg-black"
+          className="absolute cursor-pointer right-4 top-4 z-10 rounded-full bg-black/70 px-3 py-2 text-xl text-white hover:bg-black"
         >
           ✕
         </button>
@@ -73,7 +73,7 @@ function MovieDetails() {
 
           <button
             onClick={() => navigate("/movies")}
-            className="mt-6 rounded-lg bg-red-500 px-5 py-2 font-medium text-white hover:bg-red-600"
+            className="mt-6 cursor-pointer rounded-lg bg-red-500 px-5 py-2 font-medium text-white hover:bg-red-600"
           >
             ✕ Close
           </button>
